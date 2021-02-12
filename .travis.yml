@@ -4,6 +4,9 @@ dist: trusty
 os: linux
 
 language: c
+arch:
+  - amd64
+  - ppc64le
 
 compiler:
   - gcc
